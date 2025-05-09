@@ -1,0 +1,70 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Pasta de compilação
+/target/
+
+# Pasta de dependências baixadas (Maven ou Gradle)
+/.mvn/
+/.gradle/
+
+# Arquivos de configuração IDE (IntelliJ, Eclipse, VS Code, etc.)
+*.iml
+.idea/
+/.vscode/
+
+# Arquivos de log
+*.log
+
+# Arquivos do sistema operacional (Mac, Windows, Linux)
+.DS_Store
+Thumbs.db
+
+# Arquivos de backup do editor de texto
+*~
+*.swp
+
+# Arquivos de configuração locais (Spring Boot)
+application.properties
+application.yml
+
+# Arquivos de build de containers ou CI/CD (Docker, Jenkins, etc.)
+*.war
+*.jar
+*.ear
+*.tar.gz
+
+# Arquivos temporários e de cache
+*.class
+

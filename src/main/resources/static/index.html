@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu Principal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="menu-container">
+    <h1>Bem-vindo!</h1>
+    <p>O que você deseja fazer?</p>
+    <div class="button-group">
+      <button onclick="irParaProduto()">Cadastrar Produto</button>
+      <button onclick="irParaCliente()">Cadastrar Cliente</button>
+    </div>
+  </div>
+
+  <script>
+    function irParaProduto() {
+      window.location.href = "produto.html";
+    }
+
+    function irParaCliente() {
+      window.location.href = "cliente.html";
+    }
+  </script>
+</body>
+</html>
